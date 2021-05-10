@@ -19,12 +19,6 @@
     "test": "jest",
     "release": "yarn build && np"
   },
-  "husky": {
-    "hooks": {
-
-    
-    }
-  },
   "jest": {
     "setupFilesAfterEnv": [
       "<rootDir>/src/setupTests.js"
